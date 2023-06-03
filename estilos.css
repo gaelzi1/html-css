@@ -1,0 +1,332 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Libre Baskerville', serif; 
+
+}
+
+.wrapper,
+.portafolio{
+    width:100vw;
+    height: 100vh;
+    background-color:#7C785F;
+    color:#EDE7CC;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em };
+
+.brand span{
+    color:rgb(0, 0, 0);
+}
+.brand{
+    margin-top: -7px;
+}
+.menu{
+    display: flex;
+    width: 50%  ;
+    justify-content:space-around ;
+}
+.menu li{
+    list-style: none;
+ 
+}
+.menu a{
+    color: #EDE7CC;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu.active {
+    color: #333;
+}
+
+.menu a:hover{
+    background-color: #7C785F;
+    transition: ease-in .3 s;
+}   
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:  repeat(2,1fr) ;
+    align-items: center;
+}
+
+h1{
+    font-size: 1cm;
+    color:rgb(82, 54, 12) ;
+}
+
+.mi  {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    width: 100vw;
+ align-items: center;
+ background-color:#fff ;
+ 
+   
+}
+.brand span{
+    color: #471010;
+}
+
+.mi img {
+   
+    width: 50vw;
+    height:100vh;
+    grid-column: 1/5;
+}
+.info{
+    grid-column: 5/10;
+    padding: 3cm;
+}
+
+.info h2 {
+    font-size: 2em;
+    color:rgb(82, 54, 12);
+}
+.titulo-card span{
+    text-align: center;
+}
+.divider {
+    height: 4px;
+    width:  70px;
+    background-color:#471010;
+    margin-top: 1px;
+    margin-bottom: 2em;
+}
+
+.mi p{
+    margin-bottom: 1em;
+}
+
+
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu li a.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.portafolio-cab{
+    width: 100vw;
+    padding: 5em;
+}
+
+.portafolio-cab h2{
+    font-size: 2.5em;
+}
+.portafolio{
+    height: 120vh;
+}
+.portafolio .contenedor{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.targeta{
+    width: 300px;
+    height: 375px;
+    background-color: #544F41;
+
+}
+
+.card-img{
+    width: 100%;
+    height: 150px;
+    background-image: url(../gael/Pictures/PONOS_logo.webp);
+    background-size: cover;
+
+}
+
+
+.titulo-card{
+    padding: 20px;
+    align-items: flex-end;
+
+}
+.titulo-card h2{
+    text-align-last:unset;
+    margin-left: 35px; 
+}
+.detalles-proyect{
+    display: flex;
+    justify-content: center;
+    margin: 2em; 
+    background-color:#333; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    display: flex;
+  align-items: center;
+  position:absolute  
+}
+
+.links-proyectos{
+   position: relative; 
+    display: flex;
+    justify-content: center;
+    color: #471010;
+}
+
+.links-proyectos a{
+    color: #333;
+    display: flex;
+   position: relative;
+
+    
+}
+.seccion-contacto{
+    background-color: #7C785F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.formulario{
+    margin-top: 10px;
+}
+
+
+.container{
+    padding: 3em;
+    margin: 0 auto;
+
+
+}
+.seccion-contacto h2{
+    color: #EDE7CC;
+}
+.titulo-contacto{
+    text-align: center;
+}
+.contac-form{
+    color: #EDE7CC;
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+   
+}
+
+.formulario input{
+padding: 10px 20px;
+margin-bottom: 10px;
+background:none;
+border:none;
+border-bottom: 1px solid #471010;
+color: #471010;
+}
+
+.formulario textarea{
+height: 150px;    
+background:none;
+color: #471010;
+padding: 1.5em;
+border: 1px solid #471010;
+margin: 10px;
+
+}
+
+
+.formulario input::placeholder {
+    color: #EDE7CC; 
+}  
+  .formulario textarea::placeholder{
+    color: #EDE7CC;
+  }
+
+
+.btn-subdit{
+    padding: 10px 55px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color:#EDE7CC;
+    border-radius: 20px;
+    
+}
+.contact-heading {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+
+.titulo-contacto{
+    align-items: end;
+}
+  
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #EDE7CC;
+    padding: 2;
+  }
+
+  .footer h2{
+    color: #471010;
+    font-size: 2em;
+  }
+
+  .footer-content{
+    font-size: 1.5em;
+  }
